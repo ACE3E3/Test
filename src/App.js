@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { Button } from 'react-bootstrap';
 
 function App() {
   return (
@@ -9,6 +10,10 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <button type="button" class="btn btn-outline-primary">Hello</button>
+        <div class="alert alert-primary" role="alert">
+        This is a primary alert—check it out!
+        </div>
         <a
           className="App-link"
           href="https://reactjs.org"
